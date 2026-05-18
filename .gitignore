@@ -1,0 +1,24 @@
+# Go
+*.test
+*.out
+vendor/
+
+# Built binary
+terraform-provider-netskope-publisher
+
+# Goreleaser
+dist/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+
+# Local dev overrides
+.terraformrc
+terraform.rc
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+crash.log
